@@ -28,6 +28,7 @@ void SetSegment(Segment_Typedef current_segment)
 
 void SevenSegment_DisplayHexNum(int a)
 {
+		
     switch (a){
 		case 0: WriteCharacter_0(); break;
         case 1: WriteCharacter_1();break;
@@ -56,7 +57,7 @@ void SevenSegment_ToggleDot()
 void WriteCharacter_1()
 {
     SetSegment(Segment_C);
-    SetSegment(Segment_D);
+    SetSegment(Segment_B);
 
 }
 void WriteCharacter_2()

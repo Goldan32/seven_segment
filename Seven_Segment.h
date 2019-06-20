@@ -45,46 +45,46 @@ void SevenSegment_Init(SevenSegment_WiresTypedef* wires);
 void SetSegment(Segment_Typedef current_segment);
 
 //Turns off all leds
-void SevenSegment_Delete();
+void SevenSegment_Delete(void);
 
 //Write the number in hex
 void SevenSegment_DisplayHexNum (int a);
 
 //Toggle the dot on the display
-void SevenSegment_ToggleDot();
+void SevenSegment_ToggleDot(void);
 
 //Functions to show a character
-void WriteCharacter_1();
+void WriteCharacter_1(void);
 
-void WriteCharacter_2();
+void WriteCharacter_2(void);
 
-void WriteCharacter_3();
+void WriteCharacter_3(void);
 
-void WriteCharacter_4();
+void WriteCharacter_4(void);
 
-void WriteCharacter_5();
+void WriteCharacter_5(void);
 
-void WriteCharacter_6();
+void WriteCharacter_6(void);
 
-void WriteCharacter_7();
+void WriteCharacter_7(void);
 
-void WriteCharacter_8();
+void WriteCharacter_8(void);
 
-void WriteCharacter_9();
+void WriteCharacter_9(void);
 
-void WriteCharacter_0();
+void WriteCharacter_0(void);
 
-void WriteCharacter_A();
+void WriteCharacter_A(void);
 
-void WriteCharacter_B();
+void WriteCharacter_B(void);
 
-void WriteCharacter_C();
+void WriteCharacter_C(void);
 
-void WriteCharacter_D();
+void WriteCharacter_D(void);
 
-void WriteCharacter_E();
+void WriteCharacter_E(void);
 
-void WriteCharacter_F();
+void WriteCharacter_F(void);
 
 
 
