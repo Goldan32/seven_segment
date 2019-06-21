@@ -1,15 +1,15 @@
 /*
-Library:					7+1 segment led display drive for STM32 MCUs
-Written by:					Daniel Arany
+Library:				7+1 segment led display drive for STM32 MCUs
+Written by:				Daniel Arany
 Date written:				19/06/2019
-Description:				To use the library, first, the pinout of of the seven segment display 
-							must be coded into the library by creating a SevenSegment_WiresTypedef 
-							type variable and passing it to the init function before using any of 
-							the other functions.
+Description:				To use the library, first, the pinout of the seven segment display 
+					must be coded into the library by creating a SevenSegment_WiresTypedef 
+					type variable and passing it to the init function before using any of 
+					the other functions.
 Public functions:			SevenSegment_Init 			: initializes the library	
-							SevenSegment_Delete			: deactivates all of the LED-s
-							SevenSegment_DisplayHexNum	: displays the number in the parameter
-														  in hexadecimal.
+					SevenSegment_Delete			: deactivates all of the LED-s
+					SevenSegment_DisplayHexNum		: displays the number in the parameter
+										in hexadecimal.
 */
 
 //Header files
